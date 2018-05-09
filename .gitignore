@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs
+/CommandLine/.vs/CommandLine
+/CommandLine/Cat/bin
+/CommandLine/Cat/obj
+/CommandLine/CheckNumber/bin/Debug/netcoreapp2.0
+/CommandLine/CheckNumber/obj
+/Conference/.vs/Conference/v15
+/Conference/Conference/bin/Debug/netcoreapp2.0
+/Conference/Conference/obj
+/MLCore/.vs/MLCore/v15
+/MLCore/MLCore/bin/Debug/netcoreapp2.0
+/MLCore/MLCore/obj
