@@ -1,0 +1,2 @@
+* NetCore Maching Learning Example
+> https://mp.weixin.qq.com/s?__biz=MzAwNTMxMzg1MA==&mid=2654070405&idx=1&sn=33218567f1e0a7c53895fbe62b0f3c1b&chksm=80dbc2d0b7ac4bc6b5122fdaf481e8ca7d3602be6df0843caa66dc24b46f5f55212d51aa6764&mpshare=1&scene=1&srcid=0509KPJa2CpyA2rV7dMd4uhN#rd
