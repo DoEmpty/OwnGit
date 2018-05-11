@@ -3,5 +3,6 @@
 
 * SwaggerBySwashbuckle Swashbuckle在asp.netCore上生成的有好的api文档
 > 1.引用`Swashbuckle.AspNetCore`Nuget包
-	2.默认路径是/swagger，而非以前的/swagger/ui/index
-	3.参考**https://github.com/domaindrivendev/Swashbuckle.AspNetCore/tree/a374cb40cf06f85a3cd58f84288c076206f70717**
+
+2.默认路径是/swagger，而非以前的/swagger/ui/index
+3.参考**https://github.com/domaindrivendev/Swashbuckle.AspNetCore/tree/a374cb40cf06f85a3cd58f84288c076206f70717**
