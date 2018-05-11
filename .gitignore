@@ -14,3 +14,7 @@
 /MLCore/.vs/MLCore/v15
 /MLCore/MLCore/bin/Debug/netcoreapp2.0
 /MLCore/MLCore/obj
+/AsyncAndAwait
+/MLCore/.vs/config
+/MLCore/SwaggerBySwashbuckle/bin/Debug/netcoreapp2.0
+/MLCore/SwaggerBySwashbuckle/obj
