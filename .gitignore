@@ -18,3 +18,7 @@
 /MLCore/.vs/config
 /MLCore/SwaggerBySwashbuckle/bin/Debug/netcoreapp2.0
 /MLCore/SwaggerBySwashbuckle/obj
+/ParameterBindingTemp/.vs
+/ParameterBindingTemp/packages
+/ParameterBindingTemp/ParameterBindingTemp/bin
+/ParameterBindingTemp/ParameterBindingTemp/obj/Debug
