@@ -22,3 +22,6 @@
 /ParameterBindingTemp/packages
 /ParameterBindingTemp/ParameterBindingTemp/bin
 /ParameterBindingTemp/ParameterBindingTemp/obj/Debug
+/DesignPatterns/.vs/DesignPatterns/v15
+/DesignPatterns/Strategy/bin/Debug/netcoreapp2.0
+/DesignPatterns/Strategy/obj
