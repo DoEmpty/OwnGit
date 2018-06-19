@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cat", "Cat\Cat.csproj", "{69135D75-96BF-4739-AF84-F7779F30253F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckNumber", "CheckNumber\CheckNumber.csproj", "{EBB40C37-51D6-4AD3-BCB5-D3ABBC92F4A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckNumber", "CheckNumber\CheckNumber.csproj", "{EBB40C37-51D6-4AD3-BCB5-D3ABBC92F4A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YangHuiTriangle", "YangHuiTriangle\YangHuiTriangle.csproj", "{40734485-A2FF-4B44-B74B-7A78EFB7E296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EBB40C37-51D6-4AD3-BCB5-D3ABBC92F4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBB40C37-51D6-4AD3-BCB5-D3ABBC92F4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBB40C37-51D6-4AD3-BCB5-D3ABBC92F4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40734485-A2FF-4B44-B74B-7A78EFB7E296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40734485-A2FF-4B44-B74B-7A78EFB7E296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40734485-A2FF-4B44-B74B-7A78EFB7E296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40734485-A2FF-4B44-B74B-7A78EFB7E296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
