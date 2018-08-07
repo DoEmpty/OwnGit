@@ -26,7 +26,7 @@ namespace XXY.Business
             result.Data = houseEntList.Select(x => new HouseResponse
             {
                 Age = x.Age,
-                AreaName = x.AreaName,
+                AreaName = x.HouseArea.Name,
                 Area = x.Area,
                 Community = x.Community,
                 ContactMobile = x.ContactMobile,
@@ -34,12 +34,12 @@ namespace XXY.Business
                 CreateUserType = Utils.SystemConfigs.First(y => y.ID == x.CreateUserType).DisplayName,
                 DecorateType = Utils.SystemConfigs.First(y => y.ID == x.DecorateType).DisplayName,
                 Direction = x.Direction,
-                FirstPrice = x.TotalPrice * x.FirstRate,
-                TotalPrice = x.TotalPrice,
+                FirstPrice = x.HousePrice.TotalPrice * x.HousePrice.FirstRate,
+                TotalPrice = x.HousePrice.TotalPrice,
                 FloorType = Utils.SystemConfigs.First(y => y.ID == x.FloorType).DisplayName,
                 ID = x.ID,
-                DefaultImage = x.Image,
-                Layout = $"{x.BedroomCount}室{x.LivingroomCount}厅{x.KitchenCount}厨{x.BathroomCount}卫",
+                Images = x.HouseImages.Select(y=>y.Image).ToArray(),
+                Layout = $"{x.HouseRoom.BedroomCount}室{x.HouseRoom.LivingroomCount}厅{x.HouseRoom.KitchenCount}厨{x.HouseRoom.BathroomCount}卫",
                 Memo = x.Memo,
                 Type = Utils.SystemConfigs.First(y => y.ID == x.Type).DisplayName
             });

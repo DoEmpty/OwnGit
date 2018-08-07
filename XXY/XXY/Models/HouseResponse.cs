@@ -73,7 +73,7 @@ namespace XXY.Models
         /// <summary>
         /// 图片信息
         /// </summary>
-        public string DefaultImage { get; set; }
+        public string[] Images { get; set; }
         /// <summary>
         /// 格局
         /// </summary>

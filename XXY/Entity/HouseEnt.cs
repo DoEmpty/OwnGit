@@ -42,10 +42,6 @@ namespace Entity
         /// </summary>
         public int Age { get; set; }
         /// <summary>
-        /// 默认图片
-        /// </summary>
-        public string Image { get; set; }
-        /// <summary>
         /// 系统配置，创建人类别
         /// </summary>
         public int CreateUserType { get; set; }
@@ -54,12 +50,9 @@ namespace Entity
         public string ContactMobile { get; set; }
         public string Memo { get; set; }
 
-        public string AreaName { get; set; }
-        public decimal TotalPrice { get; set; }
-        public decimal FirstRate { get; set; }
-        public int LivingroomCount { get; set; }
-        public int BedroomCount { get; set; }
-        public int KitchenCount { get; set; }
-        public int BathroomCount { get; set; }
+        public HousePriceEnt HousePrice { get; set; }
+        public HouseRoomEnt HouseRoom { get; set; }
+        public AreaEnt HouseArea { get; set; }
+        public List<HouseImageEnt> HouseImages { get; set; } = new List<HouseImageEnt>();
     }
 }
