@@ -11,5 +11,6 @@ namespace Entity
         public int ID { get; set; }
         public int HouseID { get; set; }
         public string Image { get; set; }
+        public bool IsDefault { get; set; }
     }
 }

@@ -30,6 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\XXY.xml</DocumentationFile>
+    <NoWarn>CS1591;</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,15 +92,27 @@
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="App_Start\WebApiExceptionFilterAttribute.cs" />
+    <Compile Include="Business\AdBus.cs" />
     <Compile Include="Business\HouseBus.cs" />
+    <Compile Include="Business\SystemBus.cs" />
+    <Compile Include="Controllers\ADController.cs" />
     <Compile Include="Controllers\HouseController.cs" />
+    <Compile Include="Controllers\ImageController.cs" />
+    <Compile Include="Controllers\SystemController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AdRequest.cs" />
+    <Compile Include="Models\AdResult.cs" />
     <Compile Include="Models\HouseRequest.cs" />
-    <Compile Include="Models\HouseResponse.cs" />
+    <Compile Include="Models\HouseResult.cs" />
+    <Compile Include="Models\ImageRequest.cs" />
+    <Compile Include="Models\ImageResult.cs" />
     <Compile Include="Models\ModelRequest.cs" />
     <Compile Include="Models\ModelResult.cs" />
+    <Compile Include="Models\SystemRequest.cs" />
+    <Compile Include="Models\SystemResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">

@@ -1,40 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
 namespace XXY.Models
 {
     /// <summary>
-    /// 房屋信息请求实体
+    /// 房屋信息响应实体
     /// </summary>
-    public class HouseRequest:ModelRequest
+    public class HouseResult
     {
         /// <summary>
-        /// 区域ID
+        /// ID
         /// </summary>
-        public int AreaID { get; set; }
+        public int ID { get; set; }
+        /// <summary>
+        /// 所在地区
+        /// </summary>
+        public string AreaName { get; set; }
         /// <summary>
         /// 小区名称
         /// </summary>
         public string Community { get; set; }
         /// <summary>
-        /// 房产性质
+        /// 系统配置，房屋类别
         /// </summary>
-        public int Type { get; set; }
+        public string Type { get; set; }
         /// <summary>
-        /// 楼层
+        /// 系统配置，楼层类别
         /// </summary>
-        public int FloorType { get; set; }
+        public string FloorType { get; set; }
         /// <summary>
         /// 朝向
         /// </summary>
         public string Direction { get; set; }
         /// <summary>
-        /// 装修
+        /// 系统配置，装修类别
         /// </summary>
-        public int DecorateType { get; set; }
+        public string DecorateType { get; set; }
         /// <summary>
         /// 面积
         /// </summary>
@@ -44,13 +47,9 @@ namespace XXY.Models
         /// </summary>
         public int Age { get; set; }
         /// <summary>
-        /// 创建人类型
+        /// 系统配置，创建人类别
         /// </summary>
-        public int CreateUserType { get; set; }
-        /// <summary>
-        /// 创建人
-        /// </summary>
-        public int CreateUserID { get; set; }
+        public string CreateUserType { get; set; }
         /// <summary>
         /// 创建时间
         /// </summary>
@@ -60,36 +59,24 @@ namespace XXY.Models
         /// </summary>
         public string ContactMobile { get; set; }
         /// <summary>
-        /// 房产备注
+        /// 备注
         /// </summary>
         public string Memo { get; set; }
         /// <summary>
-        /// 房屋价格
-        /// </summary>
-        public decimal TotalPrice { get; set; }
-        /// <summary>
-        /// 房屋首付
+        /// 首付价格
         /// </summary>
         public decimal FirstPrice { get; set; }
         /// <summary>
-        /// 房屋图片
+        /// 总价
         /// </summary>
-        public string[] HouseImages { get; set; }
+        public decimal TotalPrice { get; set; }
         /// <summary>
-        /// 客厅数量
+        /// 图片信息
         /// </summary>
-        public int LivingroomCount { get; set; }
+        public string[] Images { get; set; }
         /// <summary>
-        /// 卧室数量
+        /// 格局
         /// </summary>
-        public int BedroomCount { get; set; }
-        /// <summary>
-        /// 厨房数量
-        /// </summary>
-        public int KitchenCount { get; set; }
-        /// <summary>
-        /// 卫生间数量
-        /// </summary>
-        public int BathroomCount { get; set; }
+        public string Layout { get; set; }
     }
 }

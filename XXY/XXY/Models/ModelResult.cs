@@ -12,6 +12,10 @@ namespace XXY.Models
     public class ModelResult
     {
         /// <summary>
+        /// 返回码
+        /// </summary>
+        public string Code { get; set; } = "0000";
+        /// <summary>
         /// Message
         /// </summary>
         public string Msg { get; set; }

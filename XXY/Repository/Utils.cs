@@ -14,7 +14,7 @@ namespace Repository
         {
             get
             {
-                if (SystemConfigs == null)
+                if (systemConfigs == null)
                 {
                     systemConfigs = SystemConfigRepository.QueryAllSystemConfigs();                    
                 }

@@ -15,9 +15,9 @@ namespace Entity
         /// </summary>
         public decimal TotalPrice { get; set; }
         /// <summary>
-        /// 首付比率，0.2
+        /// 首付
         /// </summary>
-        public decimal FirstRate { get; set; }
+        public decimal FirstPrice { get; set; }
         /// <summary>
         /// 系统配置，支付方式
         /// </summary>

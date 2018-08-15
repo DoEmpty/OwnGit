@@ -36,7 +36,7 @@ namespace Entity
         /// <summary>
         /// 面积
         /// </summary>
-        public int Area { get; set; }
+        public decimal Area { get; set; }
         /// <summary>
         /// 楼龄
         /// </summary>
