@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdRepository.cs" />
+    <Compile Include="AreaRepository.cs" />
     <Compile Include="DBHelper.cs" />
     <Compile Include="HouseRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

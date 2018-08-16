@@ -30,6 +30,7 @@ namespace XXY.Controllers
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
+        [HttpPost]
         public ModelResult AddHouse(HouseRequest request)
         {
             var result = new ModelResult { Data = new HouseBus().AddHouse(request) };

@@ -18,5 +18,14 @@ namespace XXY.Business
             }
             return new ModelResult { Data = list };
         }
+
+        public ModelResult GetChildAreas(AreaRequest request)
+        {
+            var list = AreaRepository.GetAreasByParentID(request.ParentID);
+            return new ModelResult
+            {
+                Data = list.Select(x => new { ID = x.ID, Name = x.Name }).ToList()
+            };
+        }
     }
 }

@@ -20,6 +20,7 @@ namespace XXY.Controllers
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
+        [HttpPost]
         public ModelResult UploadImage(ImageRequest request)
         {
             var result = new ModelResult();

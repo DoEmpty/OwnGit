@@ -105,6 +105,7 @@
     </Compile>
     <Compile Include="Models\AdRequest.cs" />
     <Compile Include="Models\AdResult.cs" />
+    <Compile Include="Models\AreaRequest.cs" />
     <Compile Include="Models\HouseRequest.cs" />
     <Compile Include="Models\HouseResult.cs" />
     <Compile Include="Models\ImageRequest.cs" />
@@ -117,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
